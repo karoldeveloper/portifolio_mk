@@ -1,0 +1,196 @@
+/*
+* 
+* @author Maria Karolina
+* @version 0.1
+*/
+
+/* ========================= layout ======================== */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond&display=swap');
+
+
+
+html, body, .capa{
+    height: 100%;
+}
+
+body{
+    background: url(../project-pizzaria/imagens/masthead.jpg);
+                background-attachment: fixed;
+                font-family: Arial, Helvetica, sans-serif;
+                overflow-x: hidden;
+}
+
+/* -- Barra de Navegação -- */
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+    font-size: 50px;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+    color: rgb(255, 255, 255);
+    
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+    color: #28be99;
+    background: none;
+}
+
+#barra-navegacao li{
+    font-size: 20px;
+    font-family:'EB Garamond', serif;
+}
+
+/*-- Imagem de capa --*/
+
+.capa{
+    display: table;
+    width: 100%;
+ 
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+/*-- Botoes--*/
+
+.btn-custom {
+    color: white;
+    border-radius: 500px; 
+    -webkit-border-radius: 500px; 
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+
+.btn-branco {
+    border: 3px solid white;
+}
+
+.btn-branco:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* -- secao servico -- */
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, #servicos h3{
+    font-family: 'Dancing Script', cursive;
+    color: #a12101;
+    font-size: 60px;
+}
+
+#servicos p{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+/* -- secao recursos -- */
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background: url(../project-pizzaria/imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#recursos h2{
+    color: #fa6b32;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-align: right;
+}
+
+#recursos h3{
+    color: #33c010;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: right;
+}
+
+#recursos p{
+    font-family:'EB Garamond', serif;
+    font-size: 25px;
+    text-align: right;
+}
+
+
+
+/* -- Rodape -- */
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    color: white;
+}
+
+.item-rede-social {
+    float: right;
+}
+/*===========Tipografia==============*/
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+#rodape h4 {
+    color: #919496;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 300px;
+    
+}
+
+
+
+

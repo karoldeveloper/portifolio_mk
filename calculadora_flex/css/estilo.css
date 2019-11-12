@@ -1,0 +1,16 @@
+.title{
+    color: whitesmoke;
+    margin: auto auto;
+}
+
+.botao {
+    width: 280px;
+}
+
+.valores {
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 4px;
+    font-size: 20px;
+    margin: 0;
+}
