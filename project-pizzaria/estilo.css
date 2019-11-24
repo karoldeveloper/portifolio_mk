@@ -17,9 +17,13 @@ html, body, .capa{
 
 body{
     background: url(../project-pizzaria/imagens/masthead.jpg);
-                background-attachment: fixed;
-                font-family: Arial, Helvetica, sans-serif;
-                overflow-x: hidden;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+                
 }
 
 /* -- Barra de Navegação -- */
